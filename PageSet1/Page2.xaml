@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="API_testing51.Page2"
+             Title="Filters">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="This is page 2!" x:Name="Label1"/>
+            <Button x:Name="Shredded_Chicken" Text="Shredded Chicken" BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Clicked="Shredded_Chicken_Clicked" />
+            <Button x:Name="Garlic" Text="Garlic" BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Clicked="Garlic_Clicked" />
+            <Button x:Name="Cooked_Pork" Text="Cooked Pork" BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Clicked="Cooked_Pork_Clicked" />
+            <Label Text="" x:Name="InvisibleLabel" IsVisible="False" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
